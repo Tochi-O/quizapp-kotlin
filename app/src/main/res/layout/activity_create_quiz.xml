@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateQuizActivity">
+
+    <!--question, solution type-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingTop="14dp"
+        android:textSize="25dp"
+        android:id="@+id/qt"
+        android:text="Enter Question"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Question"
+        android:id="@+id/questionTitle"
+        app:layout_constraintTop_toBottomOf="@id/qt"
+        />
+
+   <!-- Spinner to Choose theory or multiple choice-->
+    <TextView
+        android:id="@+id/chooseanswertypeView"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        app:layout_constraintTop_toBottomOf="@id/questionTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Choose answer type:"
+        android:textSize = "20dp" />
+
+    <Spinner
+        android:id="@+id/spinneranswertype"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintTop_toBottomOf="@id/chooseanswertypeView"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingTop="14dp"
+        android:textSize="25dp"
+        android:id="@+id/sltions"
+        android:text="Enter Solutions"
+        app:layout_constraintTop_toBottomOf="@id/questionTitle"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Theory Solution"
+        android:id="@+id/theoryanswer"
+        app:layout_constraintTop_toBottomOf="@id/spinneranswertype"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Multiple choice 1"
+        android:id="@+id/multichoice1"
+        app:layout_constraintTop_toBottomOf="@id/spinneranswertype"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Multiple choice 2"
+        android:id="@+id/multichoice2"
+        app:layout_constraintTop_toBottomOf="@id/multichoice1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Multiple choice 3"
+        android:id="@+id/multichoice3"
+        app:layout_constraintTop_toBottomOf="@id/multichoice2"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Multiple choice 4"
+        android:id="@+id/multichoice4"
+        app:layout_constraintTop_toBottomOf="@id/multichoice3"
+        />
+
+    <!--Radio group to choose between 1-4 for multiple choice-->
+    <RadioGroup
+        android:id="@+id/rdgroup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/multichoice4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/simpleRadioButton"
+            android:layout_width="wrap_content"
+            android:text="a"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/simpleRadioButton1"
+            android:layout_width="wrap_content"
+            android:text="b"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/simpleRadioButton2"
+            android:layout_width="wrap_content"
+            android:text="c"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/simpleRadioButton3"
+            android:text="d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/saveQuest"
+        android:layout_width="match_parent"
+        android:text="SAVE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rdgroup"
+        android:layout_height="30dp"/>
+    <!--edittext, Dropdown to choose solution type-->
+    <!-- Multiple choice list edittext showing on the screen or edittext box showing on the screen-->
+    <!--Edittext for solution and position, Edittext (3) for extras-->
+    <!--solution types: theory(show box, store definition), multiple choice(store list of options), type-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/homeschool-2021/KOTLIN/quizapp/app/src/main/res/drawable/add.xml" value="0.26979166666666665" />
+        <entry key="..\:/homeschool-2021/KOTLIN/quizapp/app/src/main/res/layout/activity_answer_quiz.xml" value="0.25416666666666665" />
+        <entry key="..\:/homeschool-2021/KOTLIN/quizapp/app/src/main/res/layout/activity_create_quiz.xml" value="0.1" />
+        <entry key="..\:/homeschool-2021/KOTLIN/quizapp/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/homeschool-2021/KOTLIN/quizapp/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/homeschool-2021/KOTLIN/quizapp/app/src/main/res/layout/activity_pick_quiz.xml" value="0.25416666666666665" />
+        <entry key="..\:/homeschool-2021/KOTLIN/quizapp/app/src/main/res/layout/activity_quiz_list.xml" value="0.25364583333333335" />
+        <entry key="..\:/homeschool-2021/KOTLIN/quizapp/app/src/main/res/layout/activity_quiz_results.xml" value="0.25416666666666665" />
+        <entry key="..\:/homeschool-2021/KOTLIN/quizapp/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/homeschool-2021/KOTLIN/quizapp/app/src/main/res/layout/quizname.xml" value="0.25416666666666665" />
+        <entry key="..\:/homeschool-2021/KOTLIN/quizapp/app/src/main/res/layout/quizquestion.xml" value="0.1" />
+        <entry key="..\:/homeschool-2021/KOTLIN/quizapp/app/src/main/res/layout/quizresult.xml" value="0.25416666666666665" />
+        <entry key="..\:/homeschool-2021/KOTLIN/quizapp/app/src/main/res/layout/takequiz.xml" value="0.25416666666666665" />
+        <entry key="..\:/homeschool-2021/KOTLIN/quizapp/app/src/main/res/menu/menu_main.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
